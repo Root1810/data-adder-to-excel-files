@@ -1,6 +1,6 @@
 import openpyxl
  
-file_path = 'Nonkernel.xlsx'
+file_path = 'file.xlsx'
 workbook = openpyxl.load_workbook(file_path)
 sheet_names = workbook.sheetnames
  
